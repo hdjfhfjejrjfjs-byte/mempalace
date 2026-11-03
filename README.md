@@ -45,6 +45,18 @@ Architecture, concepts, and mining flows:
 
 ## Install
 
+### Claude Code plugin
+
+Install MemPalace as a Claude Code plugin from inside a Claude Code session:
+
+```text
+/plugin marketplace add MemPalace/mempalace
+/plugin install mempalace@mempalace
+```
+
+The plugin registers the MCP server and auto-save hooks automatically. Run
+`/mempalace:init` afterwards to install the `mempalace` CLI and complete setup.
+
 ### Agent-guided setup
 
 Install the MemPalace skills first, then ask your coding agent to set up
